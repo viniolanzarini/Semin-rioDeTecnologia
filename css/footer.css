@@ -1,0 +1,78 @@
+/* Css do footer*/
+
+footer{
+	text-align: center;
+	background:#9FFCF3;
+	padding: 30px;
+}
+
+footer p{
+	color: #004953;
+	font-size: 13px;
+	margin: 20px;	
+}
+.logoRodape{
+	height: 200px;
+	width: 200px;
+}
+
+/* Redes Sociais*/
+
+.redes{
+	display: inline;
+}
+
+.insta{
+	width:50px;
+    height:50px;
+	transition: 0.3s;
+}
+.insta:hover{
+	width: 60px;
+	height: 60px;
+}
+.youtube{
+	width:50px;
+    height:50px;
+	transition: 0.3s;
+}
+.youtube:hover{
+	width: 60px;
+	height: 60px;
+}
+.facebook{
+	width:50px;
+    height:50px;
+	transition: 0.3s;
+}
+.facebook:hover{
+	width: 60px;
+	height: 60px;
+}
+.site{
+	width:50px;
+    height:50px;
+	transition: 0.3s;
+}
+.site:hover{
+	width: 60px;
+	height: 60px;
+}
+.twitter{
+	width:50px;
+    height:50px;
+	transition: 0.3s;
+}
+.twitter:hover{
+	width: 60px;
+	height: 60px;
+}
+.linkedin{
+	width:50px;
+    height:50px;
+	transition: 0.3s;
+}
+.linkedin:hover{
+	width: 60px;
+	height: 60px;
+}

@@ -1,0 +1,44 @@
+/* Css do cabeçalho */
+
+header{
+	background: #9FFCF3;
+	background-size: cover;
+	padding: 15px;
+}
+.caixa{
+	position: relative;
+	width: auto;
+	margin:0 auto;
+}
+.logo{
+	width: 180px;
+	height: 190px;
+	-webkit-transition: 0.3s ease-in;
+	-moz-transition: 0.3s ease-in;
+	-o-transition: 0.3s ease-in;
+	transition: 0.3s ease-in;	
+}
+.logo:hover{
+	width: 200px;
+	height: 210px;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li{
+	display: inline;
+	text-transform: uppercase;
+}
+nav a{
+	color: #1B5D67;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 22px;
+	transition: 0.3s;
+}
+nav a:hover{
+	color: #DDD356;
+}

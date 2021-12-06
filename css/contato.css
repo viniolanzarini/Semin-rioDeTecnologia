@@ -1,0 +1,95 @@
+/*Css do Contato.html*/
+
+.mainContato{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+form{
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+}
+.field{
+	text-align: center;
+	border-color: #767676;
+	transition: 0.3s;
+}
+.field :hover{
+	border-color: black;
+}
+label{
+	color: #004953;
+}
+legend{
+	color: #004953;
+}
+form label, form legend, #pHorario{
+	display: block;
+	font-size: 20px;
+	margin: 10px
+}
+#corrigeEmail{
+	margin: 0% 35% 0 0;
+	font-size: 13px;
+}
+.inputPadrao{
+	display: block;
+	margin: 20px auto;
+	border-radius:5px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.prefere{
+	color: black;
+	margin: 0px 0px 10px 0px;
+} 
+.prefere:hover{
+	color: #0345A4;
+}
+#check{
+	margin: 10px 0px;
+}
+.enviar{
+	width: 40%;
+	padding:10px 0px;
+	background: #004953;
+	color: #F2F2F2;
+	font-weight: bold;
+	font-size: 18px;
+	border-style: double;
+	border-radius: 8px;
+	transition: 0.5s all;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-bottom: 20px ;
+}
+.enviar:hover{
+	background:  #FFB501;
+	transform: scale(1.1);
+}
+.enviar:active{
+	background: green;
+}
+table{
+	margin: 0px auto 20px auto;
+}
+
+thead{
+	background: #BB0E14;
+	transition: 0.3s;
+}
+thead:hover{
+	background: #0345A4;
+}
+.itemTabHead{
+	padding: 0px 10px;
+	color: #F2F2F2;
+}
+
+td,th{
+	border: solid #000000; 
+}
+
+.itemTabBody{
+	padding: 8px 20px;
+}

@@ -1,0 +1,20 @@
+/*Fonte*/
+
+body{
+	font-family: 'Montserrat', sans-serif; 
+}
+
+/* Responsividade do site*/
+
+@media screen and (max-width: 550px){
+	.caixa, .principal, .beneficios, .mapa, .mainContato,.mainProd,.video, .titulos-c{
+		width: auto;
+		}
+	h1, .mainProd, .titulos-c{
+	text-align: center;
+	}
+	nav{
+		position: static;
+		text-align: center;
+	}
+}
